@@ -10,10 +10,10 @@ export default function Footer(){
                         <a href="/">Home</a>
                     </li>
                     <li className="footerBtn">
-                        <a href="#">Store</a>
+                        <a href="/Store">Store</a>
                     </li>
                     <li className="footerBtn">
-                        <a href="#">Service</a>
+                        <a href="/Service">Service</a>
                     </li>
                     <li className="footerBtn">
                         <a href="#">Contact</a>

@@ -1,6 +1,6 @@
 .footerContent
 {
-    background-color: purple;
+    background-color: #8c52ff;
     /* height: 100px; */
     margin-top: 20px;
 }
@@ -10,11 +10,7 @@
     list-style: none;
 }
 
-.footerBtnCont
-{
-    /* display: flex;
-    justify-content: center; */
-}
+
 
 .footerBtnCont ul
 {
@@ -28,10 +24,17 @@
     justify-content: center;
 }
 
+
 .footerBtn a
 {
     color: black;
 }
+
+.footerBtn a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
 
 .contact
 {
@@ -45,6 +48,7 @@
     justify-content: center;
     gap: 15px;
 }
+
 
 .copyright
 {

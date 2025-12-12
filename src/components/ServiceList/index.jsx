@@ -6,10 +6,10 @@ export default function DisplayService() {
 
   useEffect(() => {
     const getService = async () => {
-      const response = await fetch("http://localhost:5222/api/services");
+      const response = await fetch("https://reactsitebackend.onrender.com/api/services");
       const data = await response.json();
       setService(data);
-      console.log(data)
+    //   console.log(data)
     };
     getService();
   }, []);
@@ -32,8 +32,6 @@ export default function DisplayService() {
 
   return (
     <section className="serviceBorder">
-      <h2>All Services</h2>
-
       {allServices.length > 0 ? (
         <div className="serviceRow">{allServices}</div>
         ) : (  <p>Loading services...</p> )}

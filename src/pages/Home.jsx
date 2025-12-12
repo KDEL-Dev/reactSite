@@ -4,7 +4,8 @@ export default function Home()
 {
     return(
         <>
-            <section className="homeMain">
+            <section className="home">
+         
                 <h1>Welcome to Moonlit Crochet</h1>
                 
                 <div className="homeSelect">
@@ -27,6 +28,7 @@ export default function Home()
                         </div>
                     </div>
                 </div>
+                
             </section>
         </>
     );

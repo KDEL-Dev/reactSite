@@ -1,5 +1,23 @@
 .serviceBorder
 {
-    border: black solid 2px;
-    margin: 0 500px;
+    border: 3px black double;
+    margin: 0 600px;
+}
+
+.service
+{
+    border-bottom: #c9c9c9 1px solid;
+}
+
+.serviceName h3
+{
+    margin: 0;
+    margin-top: 15px;
+    
+}
+
+.servicePrice
+{
+    font-size: 1.5em;
+    margin: 5px 0;
 }

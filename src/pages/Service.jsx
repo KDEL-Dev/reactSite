@@ -3,7 +3,7 @@ export default function Service() {
   return (
     <>
       <section>
-        <h1>Services</h1>
+        <h1 id='serviceHeader'>Services</h1>
       </section>
 
       <section>

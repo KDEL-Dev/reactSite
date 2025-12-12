@@ -6,7 +6,7 @@ export default function DisplayProduct() {
 
   useEffect(() => {
     const getProduct = async () => {
-      const response = await fetch("http://localhost:5222/api/products");
+      const response = await fetch("https://reactsitebackend.onrender.com/api/products");
       const data = await response.json();
       setProduct(data);
     };
