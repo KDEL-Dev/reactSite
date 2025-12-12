@@ -6,7 +6,7 @@ export default function Header(){
             <header id="header">
                 <div>
                     <a href="/">
-                        <img className="moonlit-logo" src="public\icon\Pink_Yellow_Star_Y2k_Style_Streetwear_Logo_Mugs_Stickers_Circle_3.png" alt="" />
+                        <img className="moonlit-logo" src="./public/icon/Pink_Yellow_Star_Y2k_Style_Streetwear_Logo_Mugs_Stickers_Circle_3.png" alt="" />
                     </a>
                 </div>
                 <Menu />     

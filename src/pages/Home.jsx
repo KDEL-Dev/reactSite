@@ -11,7 +11,7 @@ export default function Home()
                 <div className="homeSelect">
                     <div className="imgWrapper">
                         <a href="/store">
-                            <img className="shopsImg" src="/public/img/photo-1668072587819-7b393944b426.avif" alt="" />
+                            <img className="shopsImg" src="./public/img/photo-1668072587819-7b393944b426.avif" alt="" />
                         </a>
                         <a href="/store">
                             <h2 className="shopText">Shops</h2>
@@ -20,7 +20,7 @@ export default function Home()
                     <div className="homeSelect">
                         <div className="imgWrapper">
                             <a href="/service">
-                                <img className="serviceImg" src="public\img\merylove-art-9kMl3X6UxzA-unsplash.jpg" alt="" />
+                                <img className="serviceImg" src="./public/img/merylove-art-9kMl3X6UxzA-unsplash.jpg" alt="" />
                             </a>
                             <a href="/service">
                                 <h2 className="serviceText">Services</h2>
