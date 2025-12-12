@@ -1,0 +1,55 @@
+.productRow {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;    
+  gap: 2em
+}
+
+.product {
+  
+  border: 3px solid #09075a;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 300px;
+  cursor: pointer;
+  box-shadow: 2px 5px 10px rgba(1, 1, 1, .2);
+  border-radius: 10px;
+
+  transition: .25s;
+
+  /* This needs to be added for flex grow to work in productDesc */
+  display: flex;
+  flex-direction: column;
+}
+
+.product:hover
+{
+  border: 3px solid rgb(255, 217, 91);
+  box-shadow:  0 0 40px rgb(255, 215, 0, .3);
+}
+
+
+
+.productDesc
+{
+    flex-grow: 1;
+}
+
+.productPrice
+{
+    /* border-top: #ccc 1px solid;
+    border-bottom: #ccc 1px solid; */
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.productImg
+{
+    width: 250px;
+    height: 250px;
+
+    border: rgb(196, 196, 196) 1px solid;
+
+    display: flex;
+    justify-self: center;
+}

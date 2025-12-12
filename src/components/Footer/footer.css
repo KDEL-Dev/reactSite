@@ -1,0 +1,59 @@
+.footerContent
+{
+    background-color: purple;
+    /* height: 100px; */
+    margin-top: 20px;
+}
+
+.footerContent ul
+{
+    list-style: none;
+}
+
+.footerBtnCont
+{
+    /* display: flex;
+    justify-content: center; */
+}
+
+.footerBtnCont ul
+{
+    padding: 0;
+    padding-top: 20px;
+
+    gap: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerBtn a
+{
+    color: black;
+}
+
+.contact
+{
+    /* border-top: rgba(1, 1, 1, .5) 1px solid; */
+}
+
+.contactIcons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.copyright
+{
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.copyright p
+{
+    margin: 0;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
