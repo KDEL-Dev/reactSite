@@ -1,7 +1,8 @@
-.serviceBorder
-{
-    border: 3px black double;
-    margin: 0 600px;
+.serviceBorder {
+    border: 3px double black;
+    margin: 0 auto;
+    width: 40%;          /* responsive width */
+    max-width: 800px;    /* optional maximum */
 }
 
 .service

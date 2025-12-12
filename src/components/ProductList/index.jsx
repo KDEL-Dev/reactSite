@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./productList.css";
+import "./ProductList.css";
 
 export default function DisplayProduct() {
   const [productInfo, setProduct] = useState([]);
