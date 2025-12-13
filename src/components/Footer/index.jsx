@@ -28,17 +28,17 @@ export default function Footer(){
                 <div className="contactIcons">
                     <div>
                         <a href="#">
-                            <img src="public/icon/icons8-instagram.svg" alt="" />
+                            <img src="/icon/icons8-instagram.svg" alt="" />
                         </a>
                     </div>
                     <div>
                         <a href="#">
-                            <img src="public/icon/icons8-facebook.svg" alt="" />
+                            <img src="/icon/icons8-facebook.svg" alt="" />
                         </a>
                     </div>
                     <div>
                         <a href="#">
-                            <img src="public/icon/icons8-x.svg" alt="" />
+                            <img src="/icon/icons8-x.svg" alt="" />
                         </a>
                     </div>
                 </div>
